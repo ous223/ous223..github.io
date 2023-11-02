@@ -1,0 +1,59 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+```
+
+```{r}
+data("ny_noaa")
+noaa <- ny_noaa|>
+  na.omit()|>
+  group_by(id)|>
+  mutate(n=n())|>
+  filter(n>10500)|>
+  separate(date, c("year", "month", "day"), "-")|>
+  group_by(id, year)|>
+  summarise(m_prcp = mean(prcp), m_snow = mean(snow), m_snwd = mean(snwd), m_tmax = mean(as.numeric(tmax), na.rm = TRUE), m_tmin = mean(as.numeric(tmin), na.rm = TRUE), m_tdif = m_tmax-m_tmin)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+noaa|>
+  plot_ly(
+    x = ~m_snow, y = ~m_tmax, type = "scatter", mode = "markers",
+    color = ~year, colors = "viridis")|>
+  layout(title = "Scatter plot of snowfall each year vs. maximum temperature")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+noaa|>
+  plot_ly(y = ~m_tdif, color = ~id, type = "box", colors = "viridis")|>
+  layout(title = "Boxplot of temperature difference among id")
+```
+
+### Chart C
+
+```{r}
+noaa|>
+  plot_ly(x = ~id, y = ~m_prcp, color = ~id, type = "bar", colors = "viridis")|>
+  layout(title = "Barchart of mean precipitation among id")
+```
+
