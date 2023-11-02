@@ -1,0 +1,60 @@
+---
+title: "Ou Sha Resume"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+
+## Education
+**Columbia University, Mailman School of Public Health, New York, NY** <span style="float: right;">Aug 2023 - May 2025 </span>
+
+- Master of Science, Biostatistics, Public Health Data Science
+
+**Lehigh University, Bethlehem, PA** <span style="float: right;">Aug 2019 - May 2023 </span>
+
+- Bachelor of Arts, Double Major in Mathematics & Behavioral Neuroscience
+
+## Skills
+- Computer Skills: Python, R, Java, and Microsoft Word, Excel, Powerpoint
+
+- Language Skills: Native Mandarin Chinese and proficient in English
+
+## Experience
+Peer Tutor of Calculus I, II and III, **Lehigh University**, Bethlehem, PA <span style="float: right;">Aug 2023 - May 2025 </span>Aug 2021 - May 2023</span>
+
+- Provided group tutoring to students per request and evaluated their learning styles to provide appropriate techniques to improve their understanding and skills.
+
+- Delivered test review sessions and gave feedback on students’ test performance in a timely manner.
+
+- Tutored students with specific course materials and integrated learning strategies to promote independent learning.
+
+Data Analytics Associate, **Google LLC**, Remotely <span style="float: right;">Aug 2023 - May 2025 </span>Jul 2022 - Aug 2022</span>
+
+- Established different models (Logistic Regression, Support Vector Machines, KNN, Gaussian Native Bayes, Linear SVC, Perceptron, Decision Tree, Random Forest, Stochastic Gradient Descent) based on transaction data to detect classifiers for fraudulent behaviors and identified the one with the best efficiency and accuracy.
+
+- Analyzed user behavior data as well as game data and established user-based and item-based CF models to recommend ten popular games.
+
+- Built an item-based CF model to recommend five animations for the user based on the inputted data of animation ratings, viewing status, and the number of episodes watched for an animation.
+
+- Using lightGBM model to predict negative emotion levels based on a survey of DASS.
+
+## Volunteer Experience 
+Pharmacy Assistant, **St. Luke’s University Hospital**, Bethlehem, PA <span style="float: right;">Nov 2021 - Jun 2022</span>
+
+- Shadowed pharmacists, accustoming myself to the job duties and responsibilities required, and interacted with registered pharmacists in a hospital setting to gain insight into the everyday practice of pharmacy.
+
+- Emptied pneumatic tube carriers and reloaded the XR2 Automated Central Pharmacy system.
+
+- Processed prescriptions, verified patient information and filled prescriptions under pharmacists' supervision.
+
+## Extracurricular Activities
+Member, **Lehigh Equestrian Team**, Bethlehem, PA <span style="float: right;">Aug 2019 - May 2023</span>
+
+- Took lesson weekly to ride on flat and over-fences to improve balance and riding skills.
+
+- Brainstormed and discussed fundraising ideas for Intercollegiate Horse Show Association (IHSA) horse show.
+
+- Provided all-around support for the horse show, including tacking up horses, managing saddles and bridles, etc.
+
