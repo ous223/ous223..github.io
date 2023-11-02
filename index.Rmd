@@ -1,0 +1,22 @@
+---
+title: "Ou Sha"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+This is Ou's website for p8105 HW4 
+(UNI:os2424)
+
+ **Hi from my dog:**
+ 
+<img src="image/dog.jpg" style ="width:50%">
+
+
+
+# About
+Here are some useful links to learn more about me:
+
+* [resume](resume.html)
+* [dashboard](dashboard.html)
